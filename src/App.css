@@ -1,0 +1,30 @@
+.main_container{
+  width: 120%;
+  height: 570px;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin: auto;
+  
+}
+
+@media screen and (max-width: 1524px) {
+  .main_container{
+    width: 80%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;    
+    margin-left: 50px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 960px) {
+  .main_container{
+    width: 80%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;    
+    margin-left: 50px;
+    margin: auto;
+  }
+}
